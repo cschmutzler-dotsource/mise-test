@@ -24,4 +24,5 @@ jobs:
           # or, if you prefer .tool-versions:
           tool_versions: |
             shellcheck 0.9.0
-      - run: | mise -v
+      - run: |
+          mise -v
